@@ -1,0 +1,42 @@
+{
+  "change_orders": [
+    {
+      "project_name": "Pine Street Mixed-Use",
+      "project_number": "PS-901",
+      "contractor": "Granite Peak Builders",
+      "owner": "Pine Street Partners LP",
+      "tax_amount": null,
+      "change_order_number": "14",
+      "date_issued": "2026-07-08",
+      "reason": "design_change",
+      "status": "approved",
+      "subtotal": 8990.0,
+      "markup_amount": 899.0,
+      "total_amount": 9889.0,
+      "schedule_impact_days": 0,
+      "approved_by": "Lena Brooks",
+      "references": [
+        "ASI-9"
+      ],
+      "n_line_items": 1
+    },
+    {
+      "project_name": "Pine Street Mixed-Use",
+      "project_number": "PS-901",
+      "contractor": "Granite Peak Builders",
+      "owner": "Pine Street Partners LP",
+      "tax_amount": null,
+      "change_order_number": "15",
+      "date_issued": "2026-07-15",
+      "reason": "owner_request",
+      "status": "pending",
+      "subtotal": 3450.0,
+      "markup_amount": 345.0,
+      "total_amount": 3795.0,
+      "schedule_impact_days": 2,
+      "approved_by": null,
+      "references": [],
+      "n_line_items": 1
+    }
+  ]
+}

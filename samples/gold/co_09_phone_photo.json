@@ -1,0 +1,22 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "41",
+      "project_name": "Elm Street Fire Station",
+      "project_number": "ESF-12",
+      "date_issued": "2026-09-09",
+      "contractor": "Redline Mechanical Inc.",
+      "owner": "Town of Elm Grove",
+      "reason": "code_requirement",
+      "status": "pending",
+      "subtotal": 7300.0,
+      "markup_amount": 730.0,
+      "tax_amount": null,
+      "total_amount": 8030.0,
+      "schedule_impact_days": 3,
+      "approved_by": null,
+      "references": [],
+      "n_line_items": 2
+    }
+  ]
+}

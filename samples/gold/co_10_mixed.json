@@ -1,0 +1,22 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "31",
+      "project_name": "Bayview Senior Living",
+      "project_number": "BSL-77",
+      "date_issued": "2026-10-02",
+      "contractor": "Harbor Line Builders",
+      "owner": "Bayview Care Group",
+      "reason": "owner_request",
+      "status": "approved",
+      "subtotal": 21760.0,
+      "markup_amount": 1740.8,
+      "tax_amount": null,
+      "total_amount": 23500.8,
+      "schedule_impact_days": 6,
+      "approved_by": "Grace Okafor",
+      "references": [],
+      "n_line_items": 2
+    }
+  ]
+}

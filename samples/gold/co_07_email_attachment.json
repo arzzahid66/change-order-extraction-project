@@ -1,0 +1,22 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "PCO-21",
+      "project_name": "Cedar Ridge Townhomes Phase 2",
+      "project_number": "CRT-2",
+      "date_issued": "2026-08-03",
+      "contractor": "Bluewater Plumbing LLC",
+      "owner": "Cedar Ridge Homes",
+      "reason": "unforeseen_condition",
+      "status": "pending",
+      "subtotal": 10910.0,
+      "markup_amount": 1091.0,
+      "tax_amount": 654.6,
+      "total_amount": 12655.6,
+      "schedule_impact_days": 5,
+      "approved_by": null,
+      "references": [],
+      "n_line_items": 2
+    }
+  ]
+}

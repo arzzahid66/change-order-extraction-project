@@ -1,0 +1,22 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "12",
+      "project_name": "Harbor View Apartments",
+      "project_number": null,
+      "date_issued": "2026-04-07",
+      "contractor": "Ridgeline Construction",
+      "owner": null,
+      "reason": "unforeseen_condition",
+      "status": "proposed",
+      "subtotal": 3850.0,
+      "markup_amount": 577.5,
+      "tax_amount": null,
+      "total_amount": 4427.5,
+      "schedule_impact_days": 3,
+      "approved_by": null,
+      "references": [],
+      "n_line_items": 0
+    }
+  ]
+}

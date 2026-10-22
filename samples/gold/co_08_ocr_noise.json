@@ -1,0 +1,24 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "9",
+      "project_name": "Westgate Elementary Gym Addition",
+      "project_number": "WEG-44",
+      "date_issued": "2026-06-02",
+      "contractor": "Westgate Construction Group",
+      "owner": "Westgate School Board",
+      "reason": "design_change",
+      "status": "proposed",
+      "subtotal": 8170.0,
+      "markup_amount": 745.0,
+      "tax_amount": null,
+      "total_amount": 8915.0,
+      "schedule_impact_days": 3,
+      "approved_by": null,
+      "references": [
+        "ASI-3"
+      ],
+      "n_line_items": 2
+    }
+  ]
+}

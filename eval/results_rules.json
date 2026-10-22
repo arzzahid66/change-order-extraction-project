@@ -1,0 +1,544 @@
+{
+  "mode": "rules",
+  "field_accuracy": 0.721,
+  "false_fill_rate": 0.0,
+  "auto_accept_precision": 1.0,
+  "auto_accept_coverage": 0.6,
+  "review_flag_on_bad_docs": [
+    {
+      "doc": "co_05_math_mismatch.pdf",
+      "co": "22",
+      "found": true,
+      "needs_review": true,
+      "expect_review": true,
+      "lines_ok": true
+    }
+  ],
+  "calibration": [
+    {
+      "range": "[0.0,0.5)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "range": "[0.5,0.8)",
+      "n": 17,
+      "mean_conf": 0.702,
+      "accuracy": 1.0
+    },
+    {
+      "range": "[0.8,0.9)",
+      "n": 6,
+      "mean_conf": 0.895,
+      "accuracy": 1.0
+    },
+    {
+      "range": "[0.9,1.0)",
+      "n": 78,
+      "mean_conf": 0.951,
+      "accuracy": 1.0
+    }
+  ],
+  "per_field": {
+    "approved_by": "3/4",
+    "change_order_number": "9/11",
+    "contractor": "7/11",
+    "date_issued": "9/11",
+    "markup_amount": "8/11",
+    "owner": "8/10",
+    "project_name": "8/11",
+    "project_number": "8/10",
+    "reason": "7/11",
+    "references": "3/4",
+    "schedule_impact_days": "8/11",
+    "status": "6/11",
+    "subtotal": "7/11",
+    "tax_amount": "2/2",
+    "total_amount": "8/11"
+  },
+  "documents": [
+    {
+      "doc": "co_01_clean_form.pdf",
+      "co": "007",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_02_email.txt",
+      "co": "12",
+      "found": true,
+      "needs_review": true,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_03_credit.pdf",
+      "co": "3",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "co": "18",
+      "found": true,
+      "needs_review": true,
+      "expect_review": false,
+      "lines_ok": false
+    },
+    {
+      "doc": "co_05_math_mismatch.pdf",
+      "co": "22",
+      "found": true,
+      "needs_review": true,
+      "expect_review": true,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_06_log.pdf",
+      "co": "14",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_06_log.pdf",
+      "co": "15",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_07_email_attachment.eml",
+      "co": "PCO-21",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_08_ocr_noise.txt",
+      "co": "9",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "co": "41",
+      "found": true,
+      "needs_review": true,
+      "expect_review": false,
+      "lines_ok": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "co": "31",
+      "found": true,
+      "needs_review": true,
+      "expect_review": false,
+      "lines_ok": false
+    }
+  ],
+  "errors": [
+    {
+      "doc": "co_01_clean_form.pdf",
+      "field": "reason",
+      "gold": "owner_request",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_02_email.txt",
+      "field": "project_name",
+      "gold": "Harbor View Apartments",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_02_email.txt",
+      "field": "contractor",
+      "gold": "Ridgeline Construction",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_02_email.txt",
+      "field": "status",
+      "gold": "proposed",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_02_email.txt",
+      "field": "subtotal",
+      "gold": 3850.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "change_order_number",
+      "gold": "18",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "project_name",
+      "gold": "Lakeside Distribution Center",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "project_number",
+      "gold": "LDC-310",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "date_issued",
+      "gold": "2026-05-05",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "contractor",
+      "gold": "Keystone Concrete Co.",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "owner",
+      "gold": "Lakeside Logistics LLC",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "reason",
+      "gold": "design_change",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "status",
+      "gold": "pending",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "subtotal",
+      "gold": 12480.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "markup_amount",
+      "gold": 1497.6,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "total_amount",
+      "gold": 13977.6,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "schedule_impact_days",
+      "gold": 4,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "field": "references",
+      "gold": [
+        "SB-6"
+      ],
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_05_math_mismatch.pdf",
+      "field": "reason",
+      "gold": "owner_request",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_08_ocr_noise.txt",
+      "field": "contractor",
+      "gold": "Westgate Construction Group",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_08_ocr_noise.txt",
+      "field": "status",
+      "gold": "proposed",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "change_order_number",
+      "gold": "41",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "project_name",
+      "gold": "Elm Street Fire Station",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "project_number",
+      "gold": "ESF-12",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "date_issued",
+      "gold": "2026-09-09",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "contractor",
+      "gold": "Redline Mechanical Inc.",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "owner",
+      "gold": "Town of Elm Grove",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "reason",
+      "gold": "code_requirement",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "status",
+      "gold": "pending",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "subtotal",
+      "gold": 7300.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "markup_amount",
+      "gold": 730.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "total_amount",
+      "gold": 8030.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "schedule_impact_days",
+      "gold": 3,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "status",
+      "gold": "approved",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "subtotal",
+      "gold": 21760.0,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "markup_amount",
+      "gold": 1740.8,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "total_amount",
+      "gold": 23500.8,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "schedule_impact_days",
+      "gold": 6,
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "field": "approved_by",
+      "gold": "Grace Okafor",
+      "pred": null,
+      "conf": 0.0,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": false
+    }
+  ]
+}

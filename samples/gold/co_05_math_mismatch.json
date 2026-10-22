@@ -1,0 +1,23 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "22",
+      "project_name": "Oakmont High School Gym",
+      "project_number": "OHS-55",
+      "date_issued": "2026-06-01",
+      "contractor": "Brightline Electric",
+      "owner": "Oakmont Unified School District",
+      "reason": "owner_request",
+      "status": "proposed",
+      "subtotal": 5400.0,
+      "markup_amount": 540.0,
+      "tax_amount": 0.0,
+      "total_amount": 5940.0,
+      "schedule_impact_days": 1,
+      "approved_by": null,
+      "references": [],
+      "n_line_items": 2,
+      "expect_review": true
+    }
+  ]
+}

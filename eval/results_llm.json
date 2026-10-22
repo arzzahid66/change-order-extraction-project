@@ -1,0 +1,172 @@
+{
+  "mode": "llm",
+  "field_accuracy": 0.986,
+  "false_fill_rate": 0.0,
+  "auto_accept_precision": 0.993,
+  "auto_accept_coverage": 0.993,
+  "review_flag_on_bad_docs": [
+    {
+      "doc": "co_05_math_mismatch.pdf",
+      "co": "22",
+      "found": true,
+      "needs_review": true,
+      "expect_review": true,
+      "lines_ok": true
+    }
+  ],
+  "calibration": [
+    {
+      "range": "[0.0,0.5)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "range": "[0.5,0.8)",
+      "n": 1,
+      "mean_conf": 0.619,
+      "accuracy": 0.0
+    },
+    {
+      "range": "[0.8,0.9)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "range": "[0.9,1.0)",
+      "n": 139,
+      "mean_conf": 0.984,
+      "accuracy": 0.993
+    }
+  ],
+  "per_field": {
+    "approved_by": "4/4",
+    "change_order_number": "11/11",
+    "contractor": "11/11",
+    "date_issued": "11/11",
+    "markup_amount": "11/11",
+    "owner": "10/10",
+    "project_name": "11/11",
+    "project_number": "10/10",
+    "reason": "9/11",
+    "references": "4/4",
+    "schedule_impact_days": "11/11",
+    "status": "11/11",
+    "subtotal": "11/11",
+    "tax_amount": "2/2",
+    "total_amount": "11/11"
+  },
+  "documents": [
+    {
+      "doc": "co_01_clean_form.pdf",
+      "co": "007",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_02_email.txt",
+      "co": "12",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": false
+    },
+    {
+      "doc": "co_03_credit.pdf",
+      "co": "3",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_04_scanned.pdf",
+      "co": "18",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_05_math_mismatch.pdf",
+      "co": "22",
+      "found": true,
+      "needs_review": true,
+      "expect_review": true,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_06_log.pdf",
+      "co": "14",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_06_log.pdf",
+      "co": "15",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_07_email_attachment.eml",
+      "co": "PCO-21",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_08_ocr_noise.txt",
+      "co": "9",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "co": "41",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    },
+    {
+      "doc": "co_10_mixed.pdf",
+      "co": "31",
+      "found": true,
+      "needs_review": false,
+      "expect_review": false,
+      "lines_ok": true
+    }
+  ],
+  "errors": [
+    {
+      "doc": "co_01_clean_form.pdf",
+      "field": "reason",
+      "gold": "owner_request",
+      "pred": "design_change",
+      "conf": 0.916,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": true
+    },
+    {
+      "doc": "co_09_phone_photo.jpg",
+      "field": "reason",
+      "gold": "code_requirement",
+      "pred": "owner_request",
+      "conf": 0.619,
+      "correct": false,
+      "gold_present": true,
+      "pred_present": true
+    }
+  ]
+}

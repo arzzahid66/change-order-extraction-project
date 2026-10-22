@@ -1,0 +1,22 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "3",
+      "project_name": "Northgate Library Renovation",
+      "project_number": "NL-2207",
+      "date_issued": "2026-02-09",
+      "contractor": "Summit Interiors Inc.",
+      "owner": "City of Northgate",
+      "reason": "value_engineering",
+      "status": "approved",
+      "subtotal": -12600.0,
+      "markup_amount": -630.0,
+      "tax_amount": null,
+      "total_amount": -13230.0,
+      "schedule_impact_days": 0,
+      "approved_by": "Robert Alvarez",
+      "references": [],
+      "n_line_items": 2
+    }
+  ]
+}

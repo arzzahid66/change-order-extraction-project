@@ -1,0 +1,24 @@
+{
+  "change_orders": [
+    {
+      "change_order_number": "007",
+      "project_name": "Riverside Medical Office Building",
+      "project_number": "2024-118",
+      "date_issued": "2026-03-14",
+      "contractor": "Apex Builders LLC",
+      "owner": "Riverside Health Partners",
+      "reason": "owner_request",
+      "status": "approved",
+      "subtotal": 2460.0,
+      "markup_amount": 246.0,
+      "tax_amount": null,
+      "total_amount": 2706.0,
+      "schedule_impact_days": 2,
+      "approved_by": "Dana Whitfield",
+      "references": [
+        "RFI-042"
+      ],
+      "n_line_items": 3
+    }
+  ]
+}
